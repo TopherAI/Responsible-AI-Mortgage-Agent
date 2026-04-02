@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Secrets — never commit these
+.env
+*.env
+.env.local
+
+# Vector DB / data
+chroma_db/
+*.sqlite
+*.db
+data/guidelines/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# LangGraph
+.langchain.db
+langgraph_cache/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
