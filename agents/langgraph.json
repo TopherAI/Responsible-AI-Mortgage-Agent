@@ -1,7 +1,0 @@
-{
-  "dependencies": ["."],
-  "graphs": {
-    "mortgage_agent": "./agents/graph.py:graph"
-  },
-  "env": ".env"
-}
